@@ -83,6 +83,7 @@ div.bar {
 	background: #ffcc33;
 	margin: 35px auto 35px auto;}
 div.about {
+  font-size: 20px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
