@@ -1,0 +1,95 @@
+body {
+	width: 100%;
+	background: #7a0019;
+	font-family: Arial, Verdana, sans-serif;}
+
+h1 {
+	margin: 60px auto 25px auto;
+	font-size: 80px;
+	text-align: center;
+	color: #ffcc33;}
+h2 {
+	font-size: 30px;
+	text-align: left;
+	color: #7a0019;}
+
+.columnabout {
+	position: relative;
+	width: 100%;
+	height: 720px;
+	color: black;
+	margin-top: 50px;}
+table.one {
+	margin: 10px auto 0px auto;
+	font-size: 23px;
+	height: 30px;
+	width: 550px;
+	text-align: center;
+	border-collapse: collapse;}
+table.logos {
+	margin: 10px auto 10px auto;
+	height: 30px;
+	width: 300px;
+	padding-top: 5px;}
+td {
+	width: 105px;
+	margin: 0px;
+	text-align: center;}
+
+a:link {
+  	color: white;
+  	background-color: transparent;
+  	text-decoration: none;}
+
+a:visited {
+  	color: white;
+  	background-color: transparent;
+  	text-decoration: none; }
+
+p {
+	font-size: 18px;
+	margin: 0px auto 0px auto;
+	text-align: left;}
+
+img.large {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 720px;
+	margin: 0px -8px;}
+
+img.small {
+	padding: 5px;
+	width: 75px;
+	height: 75px;}
+div.news {
+	width:600px;
+	height: 500px;
+	padding: 0px 5px 0px 5px;
+	margin: 0px auto 0px auto;
+	background-color: white;}
+div.nav {
+	overflow: hidden;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	position: fixed;
+	top: 0px;
+	margin: 0px -8px;
+	z-index: 10;}
+div.bar {
+	width: 1000px;
+	height: 10px;
+	background: #ffcc33;
+	margin: 35px auto 35px auto;}
+div.about {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, 0.75);
+	color: white;
+	height: 100%;
+	width: 720px;
+	padding: 0px 25px 0px 25px;
+	z-index: 1;}
